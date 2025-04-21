@@ -4,12 +4,13 @@ public class Main {
         System.out.println("задача 1");
         int capital = 15000;
         int total = 0;
-        int i = 0;
-        for (; total <= 2_459_000; ) {
+        int i = 1;
+        while (total <= 2_459_000) {
             total = total + capital;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
             i = i + 1;
         }
-        System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+
         System.out.println("_______________________");
         //Task 2
         System.out.println("задача 2");
